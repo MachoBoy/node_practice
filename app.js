@@ -6,8 +6,6 @@ const errorController = require("./controller/404");
 
 const app = express();
 
-// initialize express handlebar
-
 app.set("view engine", "ejs");
 //app.set('view engine', 'pug');
 app.set("views", "views");
